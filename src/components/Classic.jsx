@@ -3,7 +3,7 @@
 import axios from "axios";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { setError, setLoading,setUsers } from "../redux/slices/userSlice";
+import { setError, setLoading, setUsers } from "../redux/slices/userSlice";
 
 const Classic = () => {
   const dispatch = useDispatch();
@@ -23,16 +23,17 @@ const Classic = () => {
 
     //Basarısız olursa hatayı store'a aktar
   }, []);
-  return( 
-  <div>
-    {state.isLoading ? (
-      <h1>Yükleniyor...</h1>
-    ) : state.isError ? (
-      <h1> Uzgunuz hata olustu </h1>
-    ) : (
-      state.users.map((user) => <h1>{user.name}</h1>)
-    )}
-  </div>)
+  return (
+    <div>
+      {state.isLoading ? (
+        <h1>Yükleniyor...</h1>
+      ) : state.isError ? (
+        <h1> Üzgünüz bir hata oluştu... </h1>
+      ) : (
+        state.users.map((user) => <h1>{user.name}</h1>)
+      )}
+    </div>
+  );
 };
 
 export default Classic;
