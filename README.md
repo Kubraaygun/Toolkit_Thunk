@@ -16,67 +16,65 @@ Bu proje Redux ile normal kullanım ve Redux Thunk kullanımı arasındaki fark�
 
 <h2>Classic Redux Kullanımı:</h2>
 <ul>
-<li> Senkron Eylemler:
+<li> <b>Senkron Eylemler:</b>
 <ul>
 <li>Classic Redux kullanımında, eylemler senkron olarak çalışır.</li>
 <li>Eylemler hemen çağrıldığında işlemler gerçekleştirilir ve durum güncellemeleri yapılır.</li>
 </ul>
 </li>
-</br>
-<li>Middleware Kullanımı Gereksinimi Yok:
+
+<li><b>Middleware Kullanımı Gereksinimi Yok:</b>
 <ul>
 <li>Classic Redux kullanımında ek bir middleware (örneğin, Redux Thunk) kullanılmasına gerek yoktur.</li>
 <li>Proje yapılandırması daha basit olabilir.</li>
 </ul>
 </li>
-</br>
-<li>API İstekleri Zor:
+
+<li><b>API İstekleri Zor:</b>
 <ul>
 <li>API istekleri gibi asenkron işlemleri yönetmek zordur. </li>
 <li>İşlemi başlatma, başarılı ve başarısız senaryoları için ayrı eylemler ve bu eylemleri çağıran yardımcı işlevler gerekebilir.
  </li>
 </ul>
-</li></br>
+</li>
 
 </ul>
 
 <h2>Redux Thunk Kullanımı:</h2>
 <ul>
-<li> Asenkron Eylemler:
+<li><b> Asenkron Eylemler:</b>
 <ul>
 <li>Redux Thunk kullanımında eylemler asenkron olarak çalışabilir.</li>
 <li>API istekleri gibi asenkron işlemler kolayca yönetilebilir..</li>
 </ul>
 </li>
-</br>
-<li>Middleware Kullanımı:
+
+<li><b>Middleware Kullanımı:</b>
 <ul>
 <li>Redux Thunk, Redux middleware olarak kullanılır.</li>
 <li>Async işlemleri kolayca yönetmek için kullanılır.</li>
 </ul>
 </li>
-</br>
-<li>API İstekleri Kolay:
+
+<li><b>API İstekleri Kolay:</b>
 <ul>
 <li>Redux Thunk API istekleri gibi asenkron işlemleri kolayca yönetmeyi sağlar. </li>
 <li>Tek bir eylem ile başlatma, başarılı ve başarısız senaryoları ele alınabilir.
  </li>
 </ul>
-</li></br>
+</li>
 
-<li>Daha Karmaşık Eylemler:
+<li><b>Daha Karmaşık Eylemler:</b>
 <ul>
 <li>Redux Thunk, eylemleri daha karmaşık hale getirebilir. </li>
 <li>Asenkron işlemlerin yanı sıra, farklı eylemler arasında koşullu olarak işlem yapmak mümkündür. </li>
 </ul>
 </li>
-
-Bu listede, Normal Redux ve Redux Thunk kullanımının farklı yönlerini görebilirsiniz. Normal Redux, daha basit senaryolar için kullanılabilirken, Redux Thunk daha karmaşık işlemleri yönetmek için daha uygun olabilir.
+<br>
+<br>
+Bu listede Classic Redux ve Redux Thunk kullanımının farklı yönlerini görebilirsiniz. Normal Redux, daha basit senaryolar için kullanılabilirken, Redux Thunk daha karmaşık işlemleri yönetmek için daha uygun olabilir.
 
 </ul>
-
-
-
 
 <h2>Kullanılan Teknolojiler </h2>
 <ul>
