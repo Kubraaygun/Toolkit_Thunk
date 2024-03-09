@@ -3,14 +3,14 @@ Bu proje Redux ile normal kullanım ve Redux Thunk kullanımı arasındaki fark�
 
 <h2>Proje Yapısı</h2>
 <ul>
-<li><b>components:</b>Projenin bileşenlerini içerir.</li>
+<li><b>components:</b> Projenin bileşenlerini içerir.</li>
 <li><b>redux:</b> Redux yapılandırması ve eylemleri içerir.</li>
-<li><b>action:</b>API isteği göndermek için kullanılan eylemleri içerir.</li> 
-<li><b>slices:</b>Redux dilimleri (slices) burada tanımlanmıştır.</li>
+<li><b>action:</b> API isteği göndermek için kullanılan eylemleri içerir.</li> 
+<li><b>slices:</b> Redux dilimleri (slices) burada tanımlanmıştır.</li>
 <li><b>App.jsx:</b> Redux store'unu yapılandırır.</li>
 <li><b>store.js:</b> Ana bileşen dosyası.</li>
-<li><b>index.js:</b>Uygulamanın giriş noktası.</li>
-<li><b>index.css:</b>Genel stil dosyası.</li>
+<li><b>index.js:</b> Uygulamanın giriş noktası.</li>
+<li><b>index.css:</b> Genel stil dosyası.</li>
 
 </ul>
 
@@ -71,7 +71,7 @@ Bu proje Redux ile normal kullanım ve Redux Thunk kullanımı arasındaki fark�
 </ul>
 </li>
 <br>
-<br>
+
 Bu listede Classic Redux ve Redux Thunk kullanımının farklı yönlerini görebilirsiniz. Normal Redux, daha basit senaryolar için kullanılabilirken, Redux Thunk daha karmaşık işlemleri yönetmek için daha uygun olabilir.
 
 </ul>
