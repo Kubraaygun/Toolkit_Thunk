@@ -71,7 +71,6 @@ Bu proje Redux ile normal kullanım ve Redux Thunk kullanımı arasındaki fark�
 </ul>
 </li>
 <br>
-
 Bu listede Classic Redux ve Redux Thunk kullanımının farklı yönlerini görebilirsiniz. Normal Redux, daha basit senaryolar için kullanılabilirken, Redux Thunk daha karmaşık işlemleri yönetmek için daha uygun olabilir.
 
 </ul>
@@ -89,4 +88,4 @@ Bu listede Classic Redux ve Redux Thunk kullanımının farklı yönlerini göre
 
 <h2>Ekran Görüntüsü</h2>
 
-![](./public/ToolkitjobApp.gif)
+![](./public/toolkithunk.png)
